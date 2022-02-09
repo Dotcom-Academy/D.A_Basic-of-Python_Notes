@@ -1,0 +1,61 @@
+##check a number Power of 2
+"""
+num=4648
+pwr=0
+chk=0
+i=1
+while(True):
+
+	pwr=2**i
+
+	if pwr==num:
+		chk=1
+	elif pwr>num:
+		break
+	i+=1
+
+if chk==1:
+	print(num,"Power of 2")
+else:
+	print(num,"not Power of 2")
+"""
+
+
+
+
+##check a number fibonacci number
+
+"""
+num=5
+a=0
+b=1
+c=0
+
+while(1):
+	c=a+b
+	a=b
+	b=c
+
+	if num==0 or c==num:
+		print(num,"fibonacci number")
+		break
+
+	elif c>num:
+		print(num,"not fibonacci number")
+		break
+
+"""
+
+
+
+
+
+#factorial of a number
+num = 5
+fact = 1
+for i in range(1,num+1):
+	fact *= i
+
+print(fact)
+
+
