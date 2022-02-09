@@ -1,0 +1,52 @@
+
+#Armstrong number
+
+
+num=370
+
+"""
+ln=0
+while(num>0):
+
+	ln += 1 #ln= ln+1
+
+	num = num // 10
+
+"""
+
+"""num_=str(num)
+ln=len(num_)
+ans=0
+
+for i in num_:
+	ans += (int(i)**ln)
+
+if ans==num:
+
+	print(num,"is a Armstrong number")
+
+else:
+	print(num,"is not Armstrong number")"""
+
+
+
+
+
+
+
+#Prime number
+
+num=17
+chk=0
+for i in range(2,num):
+
+	if num%i == 0:
+		chk = 1
+		break
+
+if chk == 0:
+	print(num,"Prime number")
+else:
+	print(num,"not Prime number")
+
+
