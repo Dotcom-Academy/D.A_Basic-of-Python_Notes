@@ -1,0 +1,117 @@
+"""
+Arithmetic		+ - * / % **[power]
+assignment		= += -= /= *= %=
+comparison		== != > < >= <=
+logical			and or not
+bitwise			& | ^ << >>
+
+
+identity		is    is not
+membership		in    not in
+
+"""
+
+#Use of Arithmetic
+"""
+print("Addition 2+3=",2+3)
+print("Sub 2-3=",2-3)
+print("Multi 2*3=",2*3)
+print("Div 2/3=",2/3)
+print("mod 2%3=",2%3)
+print("power 2**3=",2**3)
+"""
+
+#use of assignment
+"""
+var=12
+print("using = sign",var)
+
+var += 1  # var = var+1
+print("using += sign",var)
+
+var -= 2  # var = var-2
+print("using -= sign",var)
+
+var *= 2  # var = var*2
+print("using *= sign",var)
+
+var /= 3  # var = var/3
+print("using /= sign",var)
+
+var=13
+var %= 5  # var = var%5
+print("using %= sign",var)
+
+"""
+#use of bitwise
+
+#>> division by 2  [n/2**v]
+#<< multi by 2 		[n*2**v]
+#ans will be in integer
+"""
+val=23
+print(val<<7)		
+print(val*2**7)
+
+val_=12
+print(val_>>2)
+print(val_/2**2)
+"""
+
+#print(13 & 1)	#[(n & 1)]
+
+
+
+
+#use of comparison		== != > < >= <=
+"""
+print(5>2)
+
+print(45 < 98)
+
+print(78 != 78)
+
+print(78 == 78)
+
+print(46 >= 12)
+
+print(65 <= 64)
+
+"""
+
+
+#logical			and or not
+"""
+print(5 > 2 and 12 > 23)
+print(5 < 2 or 12 > 23)
+print(not(5 < 2 or 12 > 23))
+"""
+
+
+
+
+#identity
+"""
+a="cow"
+b="cow"
+
+print("using is-",a is b)
+
+print("using is not-",a is not b)	
+
+"""
+
+
+
+#membership
+"""
+wrd="python"
+
+print("using in-","p" in wrd)
+
+print("using not in-","o" not in wrd)
+"""
+
+
+
+
