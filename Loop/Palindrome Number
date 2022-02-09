@@ -1,0 +1,59 @@
+# check a number palindrome number or not
+## NOTE. process 1,2,3 for number && process 2,3 for String
+
+num="vbbvm"
+
+#process_1
+"""
+new=0
+n=num
+while(num>0):
+
+	tem = num % 10
+
+	new= (new*10) + tem
+
+	num = num // 10
+
+print("new number",new)
+if new==n :
+	print("palindrome.")
+else:
+	print("non Palindrome.")
+
+"""
+
+
+#process_2
+"""
+num=str(num)
+n=len(num)
+new=""
+for i in range(n-1,-1,-1):
+	new = new+(num[i])
+
+print("new number",new)
+
+
+
+if new==num :
+	print("palindrome.")
+else:
+	print("non Palindrome.")
+
+"""
+
+
+
+#process_3
+"""
+num = str(num)
+new = num[::-1]
+
+print("new number",new)
+if new==num :
+	print("palindrome.")
+else:
+	print("non Palindrome.")
+"""
+
