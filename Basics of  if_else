@@ -1,0 +1,57 @@
+# if-else
+"""
+mo=4
+
+if mo!=5:
+	#print("i will buy kurkure")
+	print("valu is not 5")
+	print("valu is "+ str(mo))
+else:
+	#print("sorry")
+	print("value is 5")
+"""
+
+# Ladder if-elif-else
+
+"""
+bm=50
+
+if bm==40:
+	print("Kolkata")
+elif bm==30:
+	print("Arambagh")
+
+elif bm==50:
+	print("Tarkeswar")
+
+else:
+	print("home")
+
+"""
+
+
+# nested if-else 
+
+mony=200
+
+if mony>=5:
+	print("kurkure")
+
+	if mony<10:
+		print("1 pkt kurkure 5")
+	if mony>=10:
+		if mony==15:
+			print("1 pkt kurkure of 10 and 1 pkt kurkure of 5")
+			print("or")
+			print("3 pkt kurkure of 5")
+		if mony>15:
+			print("for",mony,"Rs. product not available")
+		else:
+			print("1 pkt kurkure of 10")
+			print("or")
+			print("2 pkt kurkure of 5")
+
+else:
+	print("sorry")
+
+
