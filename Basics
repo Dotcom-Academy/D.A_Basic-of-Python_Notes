@@ -1,0 +1,40 @@
+a=True
+
+#print(str(a))
+
+scn="python learning is aswm."
+
+scn1="""Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the 
+embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your 
+d"""
+
+#print(scn[7:-9])
+
+vb="#$service*"
+
+vb1="%@tight+"
+
+#print(vb1[2:-1])
+
+#print("PYTHON LEARNING iS ASWM.".lower())
+
+var=" python learning is aswm. "
+
+
+#print(var.strip())
+
+#print(scn.replace(" ",",").replace(',',' '))
+
+scn="python #learnin#g is aswm+#"
+
+abcd=scn.split("#")
+
+#print((abcd))
+
+#print((scn[2]))
+
+
+print("live is learing \tenjoing it")
+print("a\\b")
+print("Science  is \"theory\" of engineering.")
+
