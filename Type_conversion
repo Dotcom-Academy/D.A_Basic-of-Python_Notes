@@ -1,0 +1,88 @@
+#int to str
+"""num=5
+print(num)
+print(type(num))
+num1=str(num)
+print(num1)
+print(type(num1))"""
+
+#float to str
+"""num=5.2
+print(num)
+print(type(num))
+num1=str(num)
+print(num1)
+print(type(num1))"""
+
+#str to str
+"""rp="python"
+print(rp)
+print(type(rp))
+rp1=str(rp)
+print(rp1)
+print(type(rp1))"""
+
+#str to int
+"""rp="8"
+print(rp)
+print(type(rp))
+rp1=int(rp)
+print(rp1)
+print(type(rp1))"""
+
+#str to float
+"""rp="5.6"
+print(rp)
+print(type(rp))
+rp1=float(rp)
+print(rp1)
+print(type(rp1))"""
+
+#int to float
+"""num=5
+print(num)
+print(type(num))
+num1=float(num)
+print(num1)
+print(type(num1))"""
+
+#float to int
+num=5.3
+print(num)
+print(type(num))
+num1=int(num)
+print(num1)
+print(type(num1))
+
+
+#str to boolean
+a="word"
+print(bool(a))
+
+b="True"
+print(bool(b))
+
+c="False"
+print(bool(c))
+
+
+#boolean to boolean
+d=True
+print(bool(d))
+
+e=False
+print(bool(e))
+
+
+
+#int to bool
+
+ab=1
+print(bool(ab))
+
+abc=45
+print(bool(abc))
+
+cbd=0
+print(bool(cbd))
+
