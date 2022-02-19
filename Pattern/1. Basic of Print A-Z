@@ -1,0 +1,28 @@
+
+print(chr(65),chr(90))  # Capital letter limitation in ascci 65-90
+
+print(chr(97),chr(122)) # # Small letter limitation in ascci 97-122
+
+print("Ascci Value of 'A'",ord("A"), "and value of 'a'",ord("a"),"\n")
+
+#Method 1
+print("Using chr type-cast\n")
+for i in range(65,90+1):
+	print(chr(i),end="\t")
+
+print("\n")
+
+for i in range(97,122+1):
+	print(chr(i),end="\t")
+
+#Method 2
+import string as Str
+
+print("\n\nUsing 'string' Library\n")
+for i in Str.ascii_uppercase:
+	print(i,end="\t")
+
+print("\n")
+
+for i in Str.ascii_lowercase:
+	print(i,end="\t")
