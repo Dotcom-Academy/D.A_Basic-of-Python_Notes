@@ -26,3 +26,14 @@ print("\n")
 
 for i in Str.ascii_lowercase:
 	print(i,end="\t")
+
+
+
+#Using Start and End
+
+start="A"
+end="V"
+#print(ord(start),ord(end))
+
+for i in range(ord(start),ord(end)+1):
+	print(chr(i),end="\t")
