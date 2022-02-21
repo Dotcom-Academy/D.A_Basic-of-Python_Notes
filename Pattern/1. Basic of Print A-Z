@@ -32,8 +32,8 @@ for i in Str.ascii_lowercase:
 #Using Start and End
 
 start="A"
-end="V"
-#print(ord(start),ord(end))
+end_="V"
+#print(ord(start),ord(end_))
 
-for i in range(ord(start),ord(end)+1):
+for i in range(ord(start),ord(end_)+1):
 	print(chr(i),end="\t")
