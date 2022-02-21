@@ -16,3 +16,24 @@ for i in range(ord("A"),ord(lim)+1):
 
 	print()
 
+#update
+
+up2= "e"
+
+chk=up2
+
+if chk.upper() == up2:
+    strt="A"
+if chk.lower() == up2:
+    strt="a"
+
+
+for i in range(ord(strt),ord(up2)+1):
+
+    for j in range(ord(strt),i+1):
+
+        print(chr(j),end=" ")
+
+    print()
+    
+    
