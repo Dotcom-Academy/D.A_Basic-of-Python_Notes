@@ -16,7 +16,7 @@ for i in range(ord("A"),ord(lim)+1):
 
 	print()
 
-#update Method_1
+#Update Method_1
 
 up2= "e"
 
@@ -35,8 +35,9 @@ for i in range(ord(strt),ord(up2)+1):
         print(chr(j),end=" ")
 
     print()
-    
-    
+  
+  
+#Update Method_2   
     
 lim="G"
 
