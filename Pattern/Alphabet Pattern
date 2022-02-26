@@ -16,7 +16,7 @@ for i in range(ord("A"),ord(lim)+1):
 
 	print()
 
-#update
+#update Method_1
 
 up2= "e"
 
@@ -37,3 +37,26 @@ for i in range(ord(strt),ord(up2)+1):
     print()
     
     
+    
+lim="G"
+
+if ord(lim) >= 65 and ord(lim) <= 90:
+    
+    strt = ord("A")
+
+if ord(lim) >= 97 and ord(lim) <= 120:
+
+     strt = ord("a")
+
+
+for i in range(strt,ord(lim)+1):
+
+    for j in range(strt,i+1):
+
+        print(chr(j),end=" ")
+
+    print()
+    
+    
+    
+
