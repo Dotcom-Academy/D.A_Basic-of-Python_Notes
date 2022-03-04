@@ -66,3 +66,103 @@ for i in range(1,num+1):
 
 
 
+
+1 2 3 4 5 
+2 3 4 5 
+3 4 5 
+4 5 
+5 
+
+
+for i in range(1,num+1):
+
+    for j in range(i,num+1):
+
+        print(j,end=" ")
+
+    print()
+    
+    
+    
+
+
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+11 12 13 14 15 
+
+
+num = 5
+r = 1
+
+for i in range(num):
+
+    for j in range(i+1):
+
+        print(r, end=" ")
+
+        r += 1
+
+    print()
+    
+    
+    
+
+
+
+1 
+2 3 
+3 4 5 
+4 5 6 7 
+5 6 7 8 9 
+
+
+num = 5
+r = 1
+for i in range(num):  #0 1 2 3 4
+
+    r = i+1                 #[Method 1]-> 0 1 2 3 4  r=0+1   r=1+1   r=2+1   r=3+1  r=4+1  
+
+    for j in range(i+1):
+
+        print(r, end=" ")       #r=6  4 5 6
+        
+        r += 1          # r=2
+    
+    #r = i+2                #[Method 2]->  0 1 2 3 4  r=0+2   r=1+2   r=2+2   r=3+2
+
+    print()
+    
+    
+    
+    
+
+
+1 
+1 2 
+2 3 4 
+4 5 6 7 
+7 8 9 10 11 
+
+
+num = 5
+r = 1
+temp=0
+
+for i in range(num):
+
+    for j in range(i+1):
+
+        print(r, end=" ")
+        temp=r
+        r += 1
+
+    r = temp
+     
+    print()
+    
+    
+    
+    
+
