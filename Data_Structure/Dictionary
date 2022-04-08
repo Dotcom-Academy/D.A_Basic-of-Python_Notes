@@ -1,1 +1,81 @@
+name_lst=["Rounak","Deep","Soudip"]
+roll_lst=[12,30,45]
+place_lst=["Arambagh","Ramnagar","Champadanga"]
 
+info={'Student':name_lst,'Roll':roll_lst,'Place':place_lst}
+
+
+ins_dict={'Student':23,'Teacher':6,'Receptionist':2,'Helper':2}
+
+print(ins_dict.keys())		# Get all available keys in dictionary 
+print(ins_dict.values())	# Get all available values in dictionary
+print(ins_dict.items())		# Get all available keys and values in dictionary
+
+
+
+int_dict={1:"one",2:"Two",4:"Three",'Helper':10}
+
+print(int_dict[4])							# Access Key's value
+
+print(int_dict.get(0))						# Access Key's value
+
+print(int_dict.get(5,'Doesn\'t exist')) 	# non-existing Key's handling
+
+
+
+
+print(ins_dict)
+
+del ins_dict["Receptionist"]		# delete key-value from dictionary using 'del'
+ins_dict.pop("Helper")				# delete key-value from dictionary using 'pop'
+ins_dict.popitem()					# delete key-value from dictionary using 'popitem' [Note: Delete only last key-value]
+print(ins_dict)
+
+
+
+print(ins_dict)
+
+ins_dict["Sales Deprt."]=9			# Add new key-value to existing dictionary
+
+print(ins_dict)
+
+
+
+
+
+#dict2=ins_dict.copy()  		# Copy method using 'copy'
+dict2=dict(ins_dict)			# Copy method using Type-cast 
+
+#del dict2["Helper"]
+dict2["ffll"]=23
+del ins_dict["Helper"]
+
+print(dict2)
+print(ins_dict)
+
+
+
+ins_dict.update(int_dict)			# Update or merge dictionary
+
+print(ins_dict)
+
+
+prg_lng={'C':"Dev Copm.",
+
+			'C++':["dev copm.","Codeblock"],
+
+			'Python':["Visual_Code","Sublime","Anaconda","Pycharm","Jupyter Notebook"],
+
+			'java':{'F_1':"Intelj_idea",'F_2':"Android_Studio",'F_3':"Net_Beans"},
+
+			'Student_name': name_lst}
+
+
+print(prg_lng['Python'][2])		# Access Key's value
+print(prg_lng['java']['F_3'])		# Access Key's value
+
+
+
+s1=dict(name="Amithav",age="23",Place='Delhi')			# Alter methode to alocate a dictionary
+
+print(s1)
