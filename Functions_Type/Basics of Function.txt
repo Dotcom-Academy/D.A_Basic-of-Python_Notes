@@ -1,0 +1,159 @@
+# Process of Execution a Function 
+
+"""
+1.function Declaration
+2.Definition
+3.calling
+"""
+
+
+def Print_prg(): 	#function Declaration
+
+	print("Currently We are using Python 3.10")		#Defination
+
+Print_prg()		#calling
+
+
+def Print_prg(): 	#function Declaration
+
+	print("Currently We are using Python 3.10")		#Defination
+	print("Currently We are using Java version_1")	
+	print("Currently We are using java V_2")	
+	print("Currently We are using Ruby")	
+	print("Currently We are using Perl")		
+
+Print_prg()		#calling
+
+
+
+def Print_prg(): 	#function Declaration
+
+	print("Currently We are using Python 3.10")		#Definition
+	print("Currently We are using Java version_1")	
+	print("Currently We are using java V_2")	
+	print("Currently We are using Ruby")	
+	print("Currently We are using Perl")		
+print("Ist Time")
+Print_prg()		#calling
+print("\n2nd Time")
+Print_prg()	
+print("\n3rd Time")
+Print_prg()	
+print("\n4th Time")
+Print_prg()
+
+
+
+glb=5 	#Global variable
+
+def tp_of_var():
+
+	lcl=50		#Local Variable
+	print(lcl)
+
+print(glb)
+
+tp_of_var()
+
+
+
+
+def return_type():
+	pass
+	
+print("With out Function Definition")
+
+
+
+#Return Type Can be int, float, char, string, bool 
+def return_type():
+
+	a=10
+	print(a)
+
+	return char(65)
+
+return_type()
+print(return_type())
+
+
+
+
+
+def return_type():
+
+	#a=10
+	#print(a)
+
+	return True
+
+#Example
+if return_type():
+	print("Yes")
+else:
+	print("No")
+  
+  
+  
+  
+#Passing variable to function called Argument or parameter
+
+def pass_var(a):
+
+	print(a)
+
+var=56
+pass_var(var) 	#passing Global variable
+
+
+def ab():
+	a=189
+	kf(a)		#passing Local Variable
+
+def kf(k):
+	print(k)
+
+ab()
+
+
+
+
+
+
+#Write a program to find a number even or odd using function
+
+def chk_even_odd(num):
+	
+	if num%2==0:
+		return True
+	else:
+		return False
+
+number=89
+
+if chk_even_odd(number):
+	print(number,"is Even Number")
+else:
+	print(number,"is Odd Number")
+  
+  
+  
+  
+
+
+
+def chk_even_odd(num):
+	
+	if num%2==0:
+
+		print(num,"is Even Number")
+	else:
+		print(number,"is Odd Number")
+
+
+number=190
+chk_even_odd(number)
+
+
+
+
