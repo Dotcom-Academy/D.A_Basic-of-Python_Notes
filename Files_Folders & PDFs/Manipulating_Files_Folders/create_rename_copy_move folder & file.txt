@@ -1,25 +1,25 @@
 import os
 import shutil as sh
 
-os.mkdir("Z_class")							               #create folder syntax:- os.mkdir("new_folder location with name")		
+os.mkdir("Z_class")							#create folder syntax:- os.mkdir("new_folder location with name")		
 
 
-os.rename("Z_class","class")			             #rename folder syntax:- os.rename("current location with current_name","current location with new_name")	
-os.rename("file_crt.txt","file.txt")	         #rename file syntax:- os.rename("current location with current_name","current location with new_name")	
+os.rename("Z_class","class")			#rename folder syntax:- os.rename("current location with current_name","current location with new_name")	
+os.rename("file_crt.txt","file.txt")	#rename file syntax:- os.rename("current location with current_name","current location with new_name")	
 
 
-sh.move('.\\class\\file.txt','.\\file.txt')		 #move file syntax:- sh.move("current location with name","new location")
+sh.move('.\\class\\file.txt','.\\file.txt')		#move file syntax:- sh.move("current location with name","new location")
 
 
-sh.copy(".\\file.txt",".\\class\\")				     #copy file syntax:- sh.copy("current location with name","new location")
-sh.copy(".\\file.txt",".\\class\\abc.txt")		 #copy file syntax:- sh.copy("current location with name","new location with different_name")
+sh.copy(".\\file.txt",".\\class\\")				#copy file syntax:- sh.copy("current location with name","new location")
+sh.copy(".\\file.txt",".\\class\\abc.txt")		#copy file syntax:- sh.copy("current location with name","new location with different_name")
 
 
-sh.move(".\\file.txt","gb.txt")					       #using move as rename
-												                       #syntax:- sh.move("current location with name","current location new_name")
+sh.move(".\\file.txt","gb.txt")					#using move as rename
+												#syntax:- sh.move("current location with name","current location new_name")
 
-os.rename("gb.txt",'class\\gb.txt')				     #using rename as move
-												                       #syntax:- sh.move("current location with name","new location with current_name")
+os.rename("gb.txt",'class\\gb.txt')				#using rename as move
+												#syntax:- sh.move("current location with name","new location with current_name")
 
 
 os.rmdir("class")			#Delete blank folder
@@ -29,4 +29,3 @@ os.remove("gb.txt")			#Delete file
 print(os.listdir("class"))	#to show all file_folders in a folder 
 
 print(dir(sh))				#to show all functions in a Python_library/module
-
