@@ -1,1 +1,29 @@
+from PyPDF2 import PdfFileReader,PdfFileWriter
 
+import os
+
+raw=os.listdir(".\\")
+
+lst=[]
+
+for i in raw:
+	if "pdf" in i:
+		lst.append(i)
+
+writer = PdfFileWriter()
+
+for j in lst:
+
+	con = PdfFileReader(j)
+
+	for k in con.pages:
+
+		writer.addPage(k)
+
+with open("Merge.pdf","wb") as op:
+
+	writer.write(op)
+  
+  
+
+  
