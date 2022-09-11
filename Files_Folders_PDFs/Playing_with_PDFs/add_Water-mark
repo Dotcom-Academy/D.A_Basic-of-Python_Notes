@@ -1,0 +1,17 @@
+from PyPDF2 import PdfFileReader,PdfFileWriter
+
+writer = PdfFileWriter()
+main_pdf = PdfFileReader(".\\Merge.pdf")
+mark_pdf = PdfFileReader(".\\water_mark.pdf").getPage(0)
+
+
+for i in main_pdf.pages:
+
+	i.mergePage(mark_pdf)
+	writer.addPage(i)
+
+with open("Merge_Water-mark.pdf","wb") as op:
+
+	writer.write(op)
+  
+  
